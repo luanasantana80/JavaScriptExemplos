@@ -1,0 +1,35 @@
+<!doctype html> 
+<html lang="pt-br">
+	<head>
+		<title>Curso javascript</title>
+		<meta chatset="UTF-8">
+		<script>
+			var i;
+			primo=0;
+			media=0;
+			multi=0;
+			var calculo;
+			quanti=0;
+			for(i=15; i<25; i++){
+				document.write( i , "<br>" );
+				if (i%2==0){
+					primo++;
+					if(i>15){
+						media=media+i;
+						quanti++
+					}
+				}
+				if (i%3==0){
+					multi=multi+i;
+				}
+			}
+			calculo=media/quanti
+			document.write(" QTD PRIMOS: ", primo , "<br>" ); 
+			document.write(" SOMA MULTI: ", multi , "<br>" );
+			document.write(" MEDIA PAR>15: ", calculo , "<br>" );
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

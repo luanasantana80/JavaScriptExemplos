@@ -1,0 +1,29 @@
+<!doctype html> 
+<html lang="pt-br">
+	<head>
+		<title>Curso javascript</title>
+		<meta chatset="UTF-8">
+		<script>
+            var arrays=new Array();
+			var numeros;
+			
+			numeros=[ 5 , 4 , 6 , 3 , 11 , 9 , 7 , 2 , 8 , 15 ];
+
+
+                for(var j=0 ; j<=9 ; j++){
+                    var valor=numeros[j];
+                    for(var i=1 ;i<numeros[j]; i++){
+
+                        valor *= i;
+
+                    }
+                    arrays.push(valor);
+            }
+            document.write("Teste inicial : "+ numeros + " <br>");
+            document.write("Teste final : "+ arrays + " <br>");
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
